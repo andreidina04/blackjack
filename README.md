@@ -11,4 +11,17 @@ Play against the computer, with a persistent score that updates after each round
 - The computer draws cards automatically until it reaches a score of 17 or higher.  
 - The winner of the round is displayed, and the general score is updated.
 
+## Features
+- Supports multiple rounds in a single session  
+- Persistent scoring between rounds  
+- Automatic Blackjack detection  
+- Handles Ace as 1 or 11 depending on the score  
+- Draws and bust scenarios handled correctly  
 
+## Scoring
+- Wins, losses, and draws are tracked throughout the session  
+- General score is displayed after each round  
+
+## Notes
+- This is a terminal-based game; no GUI is included.  
+- Can be used as a learning project for beginners to understand control flow, lists, and functions in Python.
