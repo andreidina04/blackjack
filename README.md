@@ -1,4 +1,5 @@
 <img width="456" height="356" alt="image" src="https://github.com/user-attachments/assets/d594cb9c-c40a-46ec-aaba-c4565149c717" />
+
 # Blackjack Game (Python)
 
 A simple command-line Blackjack game written in Python.  
