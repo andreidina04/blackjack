@@ -66,7 +66,7 @@ def main():
             if user_score == 0 or computer_score == 0 or user_score > 21:
                 is_game_over = True
             else:
-                user_deal = input("Type 'y' to get another card, type 'n' to pass: ")
+                user_deal = input("Type 'y' to get another card, type 'n' to stand: ")
                 if user_deal.lower() == "y":
                     user_cards.append(deal_card())
                 else:
@@ -105,7 +105,7 @@ def main():
         print(f"Draws - {draw}")
 
         # Ask user if they want to play again
-        user_play = input("Wanna play again? 'y' for yes, 'n' for closing ")
+        user_play = input("Wanna play again? 'y' for yes, 'n' for closing the program: ")
         if user_play.lower() != "y":
             print("Closing the program...")
             print("Bye...")
